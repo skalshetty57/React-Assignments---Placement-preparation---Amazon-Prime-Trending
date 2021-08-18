@@ -18,7 +18,7 @@ const App = (props) => {
   
   return (
     <>
-      <button onClick={handleReset} disabled={slideNum===0?true:false} data-testid="button-restart">Reset</button>
+      <button onClick={handleReset} disabled={slideNum===0?true:false} data-testid="button-restart">Restart</button>
       <button onClick={handlePrev} disabled={slideNum===0?true:false} data-testid="button-prev">Prev</button>
       <button onClick={handleNext} disabled={slideNum===slides.length-1?true:false} data-testid="button-next">Next</button>
       {/* <Slide slideData={slides[slideNum]}/> */}
